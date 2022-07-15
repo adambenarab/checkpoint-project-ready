@@ -1,0 +1,362 @@
+*{
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+.logo{
+    display: inline;
+    font-size: 29px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+    font-weight: 600;
+}
+.second-h{
+    text-align: center;
+}
+nav{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+i{
+    color: lightblue;
+}
+.first-image{
+    width: 31px;
+    height: 30px;
+}
+.first-h{
+    color: #00b39b;
+}
+.about{
+    color: #00b39b;
+}
+.career,a:hover{
+    color: #00b39b;
+    transition: 0.0001s;
+}
+.depar,a:hover{
+    color: #00b39b;
+    transition: 0.0001s;
+}
+.career{
+    color: gray;
+}
+.depar{
+    color: gray;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-image{
+position: absolute;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.positioning{
+    width: 1200px;
+    margin: auto;
+}
+h1{
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.second-image{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: smaller;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+    text-align: center;
+}
+.first-paragraphe{
+    width: 500px;
+    height: 100px;
+    border: 3px solid white;
+    display: inline-block;
+text-align: left;
+font-family:'Open Sans', sans-serif;
+font-weight: bold;
+color: #747474;
+line-height: 1.75;
+}
+.container-image{
+    height: 24px;
+    width: 24px;
+}
+body{
+width: 1000px;
+margin: auto;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.container-parts{
+    width: 311px;
+    height: 345px;
+text-align: left;
+font-family:'Open Sans', sans-serif;
+border-radius: 10px;
+padding: 20px;
+padding-left: 30px;
+margin: 8px;
+color: white;
+}
+.link:hover{
+color: aquamarine;
+margin: 100px;
+}
+h2{
+    font-size: 1.625em;
+    font-weight: bold;
+    color: #fff;
+    margin: 0.3em 0
+}
+/* Container holding the image and the text */
+.container-2{
+    position: relative;
+    color: black;
+  }
+    .text-block {
+        position: absolute;
+   top: 30%;
+        left: 0%;
+        color: white;
+        font-size: smaller;
+        padding-left: 20px;
+      }
+      .fist-block{
+        position: absolute;
+        width: 170px;
+        height: 200px;
+        border-radius: 10px;
+        right:  20%;
+        background-color: white;
+padding: 10px;
+        top: 14%;
+        padding: 3px;
+        text-align: center;
+      }
+.second-block{
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    background-color: white;
+    border-radius: 10px;
+width: 170px;
+height: 200px;
+padding: 3px;
+text-align: center;
+padding: 10px;
+  }
+  .third-block{
+    background-color: white;
+border-radius: 10px;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+    right: 21%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .fourth-block{
+    background-color: white;
+border-radius: 10px;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+    right: 3%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  p{
+    font-family:'Open Sans', sans-serif;
+  }
+  select {
+background-color: transparent;
+border: none;
+color: gray;
+font-family: inherit;
+text-decoration: underline;
+font-size: 20px;
+  }
+  .two-blocks-links{
+    display: inline;
+  }
+  a{
+    margin-right: 10px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+ }
+ .second-imge{
+    width: 25px;
+    height: 24px;
+ }
+ .two-blocks-inline{
+    display: inline-block;
+    margin: 20px;
+ }
+ .fourth-h{
+    text-align: center;
+ }
+ .second-paragraphe{
+    text-align: center;
+ }
+ .container-3{
+    display: flex;
+    justify-content: center;
+ }
+ .container-3-parts{
+    background-color: white;
+    width: 309px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+ }
+ .container-3-parts-image{
+    height: 278px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+ }
+ .container-3-parts-1{
+    background-image: url(	https://www.docplanner.com/images/warsaw.png);
+ }
+ .container-3-parts-2{
+    background-image: url(		https://www.docplanner.com/images/barcelona.png);
+ }
+ .container-3-parts-3{
+    background-image: url(		https://www.docplanner.com/images/munich.png);
+ }
+ .container-3-parts p{
+   padding: 10px;
+ }
+ .container-3-parts a{
+    background-color: #3d83df;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 5px;
+ }
+ div.container-3-parts{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .container-4{
+    display: flex;
+    justify-content: center;
+ }
+ .container-4-parts{
+    background-color: white;
+    width: 309px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+ }
+ .container-4-parts{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .container-4-parts-image{
+    height: 278px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+ }
+ .container-4-parts-1{
+    background-image: url(	https://www.docplanner.com/images/istanbul.png);
+ }
+ .container-4-parts-2{
+    background-image: url(https://www.docplanner.com/images/rome.png);
+ }
+ .container-4-parts-3{
+    background-image: url(https://www.docplanner.com/images/bologna.png);
+ }
+ .container-4-parts p{
+   padding: 10px;
+ }
+ .container-4-parts a{
+    background-color: #3d83df;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 5px;
+ }
+ .container-5{
+    display: flex;
+    justify-content: left;
+ }
+ .container-5-parts-image{
+    height: 278px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+ }
+ .container-5-parts{
+    background-color: white;
+    width: 309px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+ }
+ .container-5-parts{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .container-5-parts-1{
+    background-image: url(https://www.docplanner.com/images/istanbul.png);
+ }
+ .container-5-parts-2{
+    background-image: url(https://www.docplanner.com/images/rome.png);
+ }
+ .container-5-parts p{
+   padding: 10px;
+ }
+ .container-5-parts a{
+    background-color: #3d83df;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 5px;
+ }
+.last-paragraphe{
+    font-size: 40px;
+    text-align: center;
+}
+.last-div{
+    text-align: center;
+}
+.last-div a{
+    background-color: #3d83df;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    width: 225px;
+    height: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
